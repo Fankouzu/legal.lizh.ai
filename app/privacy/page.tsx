@@ -34,6 +34,17 @@ export default function PrivacyPage() {
         </section>
 
         <section>
+          <h2>Analytics and session replay</h2>
+          <p>
+            We use PostHog to collect analytics data such as screen views, user actions, and error
+            events in order to understand app usage, diagnose issues, and improve the service. Session
+            replay may capture anonymized screenshots of app screens to help us reproduce and fix
+            problems. Text input fields are masked to protect sensitive information. Analytics data is
+            processed under our instruction and is not used for cross-app or cross-website tracking.
+          </p>
+        </section>
+
+        <section>
           <h2>External model services</h2>
           <p>
             When you generate content, Lychee AI may send your prompt, reference media, and
@@ -47,7 +58,8 @@ export default function PrivacyPage() {
           <h2>Sharing</h2>
           <p>
             We share data only with the providers required to operate the service, such as
-            authentication, storage, content delivery, subscription, and AI generation vendors.
+            authentication, storage, content delivery, subscription, AI generation, and analytics
+            vendors.
           </p>
         </section>
 
