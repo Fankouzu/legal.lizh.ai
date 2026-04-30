@@ -21,6 +21,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               <Link className="nav-pill" href="/privacy">
                 Privacy
               </Link>
+              <Link className="nav-pill" href="/terms">
+                Terms
+              </Link>
               <Link className="nav-pill" href="/support">
                 Support
               </Link>

@@ -17,6 +17,10 @@ export default function HomePage() {
           <h2>Privacy Policy</h2>
           <p>How account data, prompts, reference media, generated assets, purchases, and diagnostics are handled.</p>
         </Link>
+        <Link className="card" href="/terms">
+          <h2>Terms of Use</h2>
+          <p>The terms and conditions that govern your use of Lychee AI, including subscriptions, content policies, and account management.</p>
+        </Link>
         <Link className="card" href="/support">
           <h2>Support</h2>
           <p>Contact details, account deletion help, subscription support, and app review assistance.</p>
